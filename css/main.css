@@ -29,11 +29,9 @@ h1{
 	padding: 20px;
 	text-align: center;
 	margin:10px;
-	width: 30px;
+	width: 641px;
 	height: 200px;
 	font-size: 1em;
-	writing-mode: vertical-rl;
-    display: inline-block;
 	flex-grow: 1;
 	flex-shrink: 1;
 }
@@ -65,6 +63,7 @@ h1{
 	.column {
 	    color: #fefefe;
 	    width: 90px;
+	    flex-direction: column;
 }
 
 .column1{
